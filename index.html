@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" >
-  <head>
+<!-- 
+author: erika beasley
+version: 1.0
+best viewed: chrome
+-->
+ <head>
     <meta charset="UTF-8">
     <title>erikaDevCharlie</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,25 +15,21 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-<!-- partial:index.partial.html -->
-<!--  something-->
     <!-- Navigation Bar stolen from devCharlie example -->
+     <!-- https://github.com/barrycumbie/special-fortnight-charlie -->
      <!-- ✅ navbar with burger and logo -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">🦭 Erika Beasley's Fantabulous Spin Up 🦭
+    <a class="navbar-brand" href="#">🦭 Erika Beasley's Fantabulous Dashboard 🦭
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span>🦭</span>
+      <span style="font-size: 20px;">🦭</span>
     </button>
+    <!-- links if they decide to work... -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
+          <a class="nav-link" href="charlieWireframe.png">Wireframe</a>
         </li>
       </ul>
     </div>
@@ -58,8 +59,79 @@
           </div>
         </div>
       </div>
+
+<!-- bs5 footer -->
+<!--https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/  -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container text-center text-md-start mt-5"></div>
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #28292e">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="mt-5">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="https://github.com/ehb2004" target='erikasGithub' class="text-white">github</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="https://validator.w3.org/nu/" target='nuWebsite' class="text-white">nu</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="https://wave.webaim.org/" target='waveWebsite' class="text-white">wave</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="https://github.com/ehb2004/glowing-palm-tree-charlie" target='charlieSource' class="text-white">source</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-5" />
+
+      <!-- Section: Text -->
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Welcome to my dashboard! I am Erika, and here are some of my projects.
+              This dashboard is a project for devCharlie.
+              I hope you enjoy.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+
 <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script><script  src="./script.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
